@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" 
+        content="IE=edge">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <title>list-page</title>
+    <!-- задаю певний стиль для списку -->
+    <style>
+        ul.a {
+            list-style-type: square;
+        }
+        ol.b {
+            list-style-type: upper-roman;
+        }
+    </style>
+    </head>
+    <body>
+        <!-- створюю список і в ньому підсписок -->
+        <ul class="a">
+            <li>Українська мова <ol class="b">
+                <li>Граматика</li>
+                <li>Орфографія</li>
+            </ol></li>
+            <li>Історія України<ol class="b">
+                <li>Історія Київської Русі</li>
+                <li>Історія козацтва</li>
+            </ol></li>
+            <li>Філософія<ol class="b">
+                <li>Древньогрецькі філософи</li>
+                <li>Філософія сучасності</li>
+                <li>Проблеми наукового пізнання</li>
+            </ol></li>
+          </ul>   
+    </body>
+</html>
