@@ -1,0 +1,50 @@
+/*роблю стиль для найбільшого початкового заголовку. зміщаю його вправо як у фігма*/
+h1{
+    position: absolute;
+    width: 300px;
+    height: 67px;
+    left: 233px;
+    top: 29px;   
+    font-family: 'Bayon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000; 
+}
+/* роблю стиль для цитати. теж роззташовую збоку від фото як у фігма*/
+q{
+    /* I like to always be in trend, I like to set goals for myself, this year I will read more than 60 books. I find inspiration in other people and their success stories. */
+    position: absolute;
+    width: 500px;
+    height: 36px;
+    left: 240.76px;
+    top: 104px;
+    
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #9E9E9E;
+}
+/* стиль для усіх заголовків другого типу */
+h2 {
+    font-family: 'Bayon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+h3,h4 {display: inline-block;}
+h3 {padding-right: 35px;}
+/* відступ між елементами */
+h4 {color:#9E9E9E;}
+ul{
+    color: #9E9E9E;
+}
+/* кольори для заголовків 4 типу та списку в розділі скіли */
+.main-part{
+    display: flex;
+}
